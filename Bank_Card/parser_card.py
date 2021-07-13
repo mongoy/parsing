@@ -34,30 +34,33 @@ def get_html(url, params=''):
 def get_content(html):
     soup = BeautifulSoup(html, 'html.parser')
     items = soup.find_all('div', class_="sc-14ydfjo-0 jYdA-De")
-    cards = []
+    cards_list = []
     for count, item in enumerate(items):
         print(count, item)
-        tag_name = item.find('a', class_="sc-6nr3q5-0 iyqRre")  # name card
+        cards = item.find_all('div', class_="bfjox4-9 blqfcL")
+        for index, card in enumerate(cards):
+            print(count, index, item)
+            tag_name = card.find('a', class_="sc-6nr3q5-0 iyqRre")  # name card
 
-        if tag_name is not None:
-            tag_linc = HOST + item.find('a', class_="sc-6nr3q5-0 iyqRre")['href'][1:]  #
+            if tag_name is not None:
+                tag_linc = HOST + card.find('a', class_="sc-6nr3q5-0 iyqRre")['href'][1:]  #
 
-        else:
-            tag_name = item.find('div', class_="sc-6nr3q5-0 iyqRre")
-            tag_linc = '-'
+            else:
+                tag_name = card.find('div', class_="sc-6nr3q5-0 iyqRre")
+                tag_linc = '-'
 
-        tag_bank = item.find('span', class_="bfjox4-20 jtOFL")  # bank
-        tag_img = item.find('img', class_="bfjox4-10 ekxCIS")['src']  # image
+            tag_bank = card.find('span', class_="bfjox4-20 jtOFL")  # bank
+            tag_img = card.find('img', class_="bfjox4-10 ekxCIS")['src']  # image
 
-        cards.append(
-            {
-                'title': tag_name.text.strip(),
-                'bank': tag_bank.text.strip(),
-                'link': tag_linc,
-                'image': tag_img,
-            }
-        )
-    return cards
+            cards_list.append(
+                {
+                    'title': tag_name.text.strip(),
+                    'bank': tag_bank.text.strip(),
+                    'link': tag_linc,
+                    'image': tag_img,
+                }
+            )
+    return cards_list
 
 
 def parser():
