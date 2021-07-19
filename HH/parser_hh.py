@@ -14,7 +14,6 @@ import random
 import json
 import csv
 
-
 HOST = 'https://chita.hh.ru/'
 
 URL = 'https://chita.hh.ru/search/vacancy?st=searchVacancy&text=data+engineer&area=113&salary=&currency_code=RUR&' \
@@ -28,6 +27,7 @@ HEADERS = {
     'Content-type': 'application/text',
     'Connection': 'keep-alive'
 }
+count_vacancy = 1
 
 
 def save_to_file(src, num_row):
@@ -38,12 +38,13 @@ def save_to_file(src, num_row):
 
 def read_file(num_row):
     # read page from file
-    with open(f"html\index{num_row}.html", "r") as file:
+    with open(f"html\index{num_row}.html", "r", encoding='utf-8') as file:
         src = file.read()
     return src
 
 
 def get_page(url, params=''):
+    # get context page from url
     req = requests.get(url, headers=HEADERS, params=params)
     status = req.status_code
     src = req.text
@@ -70,12 +71,12 @@ def get_data_url(src, num):
     get_data(src)
 
 
-def get_data_file(src, num):
+def get_data_file(num):
     # Data from one file
-    get_data(read_file(num))
+    get_data(read_file(num), count_vacancy)
 
 
-def get_data(src):
+def get_data(src, count_vacancy):
     page_bs = bs(src, 'lxml')
     tags = page_bs.find_all('div', class_='vacancy-serp-item')
 
@@ -103,7 +104,7 @@ def get_data(src):
         vacancy_time = tag.find("span", class_="vacancy-serp-item__publication-date "
                                                "vacancy-serp-item__publication-date_short").text.strip()
 
-        print(vacancy_place + ' - ',
+        print(str(count_vacancy) + ' - ', vacancy_place + ' - ',
               vacancy_compensation + '\n',
               vacancy_name.text.strip() + ' - ',
               vacancy_url.strip() + '\n',
@@ -113,6 +114,7 @@ def get_data(src):
               vacancy_response + '\n',
               vacancy_time + '\n'
               )
+        count_vacancy += 1
 
     return
 
@@ -137,15 +139,21 @@ def get_data_all_file(num_page):
 
 
 def parser():
-    html = get_page(URL, params={'page': 0})
-    if html[0] == 200:
-        num_pages = get_pages_num(html[1])
-        print(f'Всего {num_pages} страниц')
-        # get data from URL one or all pages
-        # get_data_page(html[1], 0)
-        get_data_all_url(URL, num_pages)
-    else:
-        print("Нет доступа!!!")
+    # html = get_page(URL, params={'page': 0})
+    # if html[0] == 200:
+    #     num_pages = get_pages_num(html[1])
+    #     print(f'Всего {num_pages} страниц')
+    #     # get data from URL one or all pages
+    #     # get_data_page(html[1], 0)
+    #     # get_data_all_url(URL, num_pages)
+    # else:
+    #     print("Нет доступа!!!")
+
+    ###
+
+    html = read_file(0)
+    num_pages = get_pages_num(html)
+    get_data_all_file(num_pages)
 
 
 parser()
