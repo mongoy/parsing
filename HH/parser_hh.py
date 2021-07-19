@@ -27,7 +27,7 @@ HEADERS = {
     'Content-type': 'application/text',
     'Connection': 'keep-alive'
 }
-count_vacancy = 1
+
 
 
 def save_to_file(src, num_row):
@@ -51,6 +51,59 @@ def get_page(url, params=''):
     return status, src
 
 
+def get_data(src, count_vacancy):
+    page_bs = bs(src, 'lxml')
+    tags = page_bs.find_all('div', class_='vacancy-serp-item')
+    vacancy_dict = {}
+    for tag in tags:
+        vacancy_name = tag.find("a", class_="bloko-link")  # vacancy name
+        vacancy_compensation = tag.find("div", class_="vacancy-serp-item__sidebar").text
+        if vacancy_compensation is None:
+            vacancy_compensation = '-'
+
+        vacancy_url = vacancy_name["href"]  # link vacancy
+        if vacancy_url is None:
+            vacancy_url = '-'
+
+        vacancy_org = tag.find("a", class_="bloko-link bloko-link_secondary")  # the name of organization
+
+        org_link = HOST + vacancy_org["href"][1:]
+
+        vacancy_place = tag.find("span", class_="vacancy-serp-item__meta-info")
+
+        vacancy_response = HOST + tag.find("div",
+                                           class_="vacancy-serp-item__controls-item "
+                                                  "vacancy-serp-item__controls-item_response"
+                                           ).find('a')['href'][1:].strip()
+
+        vacancy_time = tag.find("span", class_="vacancy-serp-item__publication-date "
+                                               "vacancy-serp-item__publication-date_short").text.strip()
+
+        vacancy_dict['place'] = vacancy_place.text.strip()
+        vacancy_dict['compensation'] = vacancy_compensation
+        vacancy_dict['name'] = vacancy_name.text.strip()
+        vacancy_dict['url'] = vacancy_url.strip()
+        vacancy_dict['org'] = vacancy_org.text.strip()
+        vacancy_dict['org_link'] = org_link
+        vacancy_dict['response'] = vacancy_response
+        vacancy_dict['time'] = vacancy_time
+
+        # print vacancies
+        print(str(count_vacancy) + ' - ', vacancy_place.text.strip() + ' - ',
+              vacancy_compensation + '\n',
+              vacancy_name.text.strip() + ' - ',
+              vacancy_url.strip() + '\n',
+              vacancy_org.text.strip() + ' - ',
+              org_link + '\n',
+              'Откликнуться -',
+              vacancy_response + '\n',
+              vacancy_time + '\n'
+              )
+        count_vacancy += 1
+
+    return vacancy_dict, count_vacancy
+
+
 def get_pages_num(src):
     """
     Number of paginator pages
@@ -71,54 +124,6 @@ def get_data_url(src, num):
     get_data(src)
 
 
-def get_data_file(num):
-    # Data from one file
-    get_data(read_file(num), count_vacancy)
-
-
-def get_data(src, count_vacancy):
-    page_bs = bs(src, 'lxml')
-    tags = page_bs.find_all('div', class_='vacancy-serp-item')
-
-    for tag in tags:
-        vacancy_name = tag.find("a", class_="bloko-link")  # vacancy name
-        vacancy_compensation = tag.find("div", class_="vacancy-serp-item__sidebar").text
-        if vacancy_compensation is None:
-            vacancy_compensation = '-'
-
-        vacancy_url = vacancy_name["href"]  # link vacancy
-        if vacancy_url is None:
-            vacancy_url = '-'
-
-        vacancy_org = tag.find("a", class_="bloko-link bloko-link_secondary")  # the name of organization
-
-        org_link = HOST + vacancy_org["href"][1:]
-
-        vacancy_place = tag.find("span", class_="vacancy-serp-item__meta-info").text.strip()
-
-        vacancy_response = HOST + tag.find("div",
-                                           class_="vacancy-serp-item__controls-item "
-                                                  "vacancy-serp-item__controls-item_response"
-                                           ).find('a')['href'][1:].strip()
-
-        vacancy_time = tag.find("span", class_="vacancy-serp-item__publication-date "
-                                               "vacancy-serp-item__publication-date_short").text.strip()
-
-        print(str(count_vacancy) + ' - ', vacancy_place + ' - ',
-              vacancy_compensation + '\n',
-              vacancy_name.text.strip() + ' - ',
-              vacancy_url.strip() + '\n',
-              vacancy_org.text.strip() + ' - ',
-              org_link + '\n',
-              'Откликнуться -',
-              vacancy_response + '\n',
-              vacancy_time + '\n'
-              )
-        count_vacancy += 1
-
-    return
-
-
 def get_data_all_url(url, num_page):
     # get data from URL
     for num in range(num_page):
@@ -132,9 +137,14 @@ def get_data_all_url(url, num_page):
 
 def get_data_all_file(num_page):
     # get data from file
+    all_vacancy_dict = {}
+    count_vacancy = 1
     for num in range(num_page):
-        get_data_file(num)
-
+        one_page_vacancies = get_data(read_file(num), count_vacancy)
+        count_vacancy = one_page_vacancies[1]
+        all_vacancy_dict[num] = one_page_vacancies[0]
+    with open("all_vacancy_dict.json", "w", encoding="utf-8") as file:
+        json.dump(all_vacancy_dict, file, indent=4, ensure_ascii=False)
     return
 
 

@@ -1,0 +1,112 @@
+{
+    "0": {
+        "place": "Москва",
+        "compensation": "2 000 – 3 500 USD",
+        "name": "React Front End Developer",
+        "url": "https://chita.hh.ru/vacancy/46279289?query=data%20engineer",
+        "org": "Metapix, Inc",
+        "org_link": "https://chita.hh.ru/employer/4883629",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46279289&hhtmFrom=vacancy_search_result",
+        "time": "15.07"
+    },
+    "1": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Разработчик ETL (Data Engineer)",
+        "url": "https://chita.hh.ru/vacancy/46274857?query=data%20engineer",
+        "org": "Синимекс",
+        "org_link": "https://chita.hh.ru/employer/6944",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46274857&hhtmFrom=vacancy_search_result",
+        "time": "15.07"
+    },
+    "2": {
+        "place": "Санкт-Петербург, Лесная и еще 2",
+        "compensation": "",
+        "name": "Senior Product Manager",
+        "url": "https://chita.hh.ru/vacancy/43808548?query=data%20engineer",
+        "org": "ALM Works",
+        "org_link": "https://chita.hh.ru/employer/542183",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=43808548&hhtmFrom=vacancy_search_result",
+        "time": "15.07"
+    },
+    "3": {
+        "place": "Краснодар",
+        "compensation": "",
+        "name": "System Administrator / DevOps Specialist (remote)",
+        "url": "https://chita.hh.ru/vacancy/45682693?query=data%20engineer",
+        "org": "Velvetech, LLC",
+        "org_link": "https://chita.hh.ru/employer/642001",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45682693&hhtmFrom=vacancy_search_result",
+        "time": "15.07"
+    },
+    "4": {
+        "place": "Москва, Бауманская и еще 1",
+        "compensation": "",
+        "name": "Data Engineer",
+        "url": "https://chita.hh.ru/vacancy/43731399?query=data%20engineer",
+        "org": "СберМегаМаркет",
+        "org_link": "https://chita.hh.ru/employer/2804795",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=43731399&hhtmFrom=vacancy_search_result",
+        "time": "14.07"
+    },
+    "5": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242167?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242167&hhtmFrom=vacancy_search_result",
+        "time": "14.07"
+    },
+    "6": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Data Engineer",
+        "url": "https://chita.hh.ru/vacancy/45959550?query=data%20engineer",
+        "org": "Plarium",
+        "org_link": "https://chita.hh.ru/employer/1753419",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45959550&hhtmFrom=vacancy_search_result",
+        "time": "14.07"
+    },
+    "7": {
+        "place": "Санкт-Петербург",
+        "compensation": "4 400 – 10 000 USD",
+        "name": "Big Data Engineer (remote)",
+        "url": "https://chita.hh.ru/vacancy/45505124?query=data%20engineer",
+        "org": "LeoVegas",
+        "org_link": "https://chita.hh.ru/employer/5501436",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45505124&hhtmFrom=vacancy_search_result",
+        "time": "13.07"
+    },
+    "8": {
+        "place": "Москва",
+        "compensation": "от 250 000 руб.",
+        "name": "Senior Software Engineer (Golang)",
+        "url": "https://chita.hh.ru/vacancy/42556899?query=data%20engineer",
+        "org": "Exness",
+        "org_link": "https://chita.hh.ru/employer/1312113",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42556899&hhtmFrom=vacancy_search_result",
+        "time": "13.07"
+    },
+    "9": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Senior веб-аналитик",
+        "url": "https://chita.hh.ru/vacancy/46192157?query=data%20engineer",
+        "org": "EPAM Systems, Inc.",
+        "org_link": "https://chita.hh.ru/employer/6769",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46192157&hhtmFrom=vacancy_search_result",
+        "time": "13.07"
+    },
+    "10": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Senior веб-аналитик",
+        "url": "https://chita.hh.ru/vacancy/46192158?query=data%20engineer",
+        "org": "EPAM Systems, Inc.",
+        "org_link": "https://chita.hh.ru/employer/6769",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46192158&hhtmFrom=vacancy_search_result",
+        "time": "13.07"
+    }
+}
