@@ -13,7 +13,7 @@ import datetime
 import json
 import os
 
-from .settings import *
+from settings import *
 # скрытый ввод пароля
 from getpass import getpass
 # Импортируем библиотеку по работе с SMTP
@@ -152,6 +152,7 @@ def get_data(src, count_vacancy):
     page_bs = bs(src, 'lxml')
     tags = page_bs.find_all('div', class_='vacancy-serp-item')
     vacancy_dict = {}
+    vacancies_dict = {}
     for tag in tags:
         vacancy_name = tag.find("a", class_="bloko-link")  # vacancy name
         vacancy_compensation = tag.find("div", class_="vacancy-serp-item__sidebar").text
@@ -185,6 +186,8 @@ def get_data(src, count_vacancy):
         vacancy_dict['response'] = vacancy_response
         vacancy_dict['time'] = vacancy_time
 
+        vacancies_dict['count'] = vacancy_dict
+
         # print vacancies
         print(str(count_vacancy) + ' - ', vacancy_place.text.strip() + ' - ',
               vacancy_compensation + '\n',
@@ -198,7 +201,7 @@ def get_data(src, count_vacancy):
               )
         count_vacancy += 1
 
-    return vacancy_dict, count_vacancy
+    return vacancies_dict, count_vacancy
 
 
 def get_pages_num(src):
@@ -257,14 +260,14 @@ def parser():
         num_pages = get_pages_num(html[1])
         print(f'Всего {num_pages} страниц')
         # get data from URL one or all pages
-        get_data_all_url(URL, num_pages)
+        # get_data_all_url(URL, num_pages)
         # parsing saved html file
         html = read_file(0)
         get_data_all_file(num_pages)
-        send_sub()
+        # send_sub()
     else:
         print("Нет доступа!!!")
 
 
-# parser()
-send_sub()
+parser()
+# send_sub()

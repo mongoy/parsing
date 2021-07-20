@@ -1,92 +1,122 @@
 {
     "0": {
-        "place": "Санкт-Петербург",
-        "compensation": "",
-        "name": "Senior JavaScript Engineer (React.js)",
-        "url": "https://chita.hh.ru/vacancy/46356817?query=data%20engineer",
-        "org": "Infront X",
-        "org_link": "https://chita.hh.ru/employer/914078",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46356817&hhtmFrom=vacancy_search_result",
-        "time": "19.07"
+        "count": {
+            "place": "Москва",
+            "compensation": "",
+            "name": "QA Automation Engineer",
+            "url": "https://chita.hh.ru/vacancy/45975518?query=data%20engineer",
+            "org": "IT X100",
+            "org_link": "https://chita.hh.ru/employer/4989161",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45975518&hhtmFrom=vacancy_search_result",
+            "time": "20.07"
+        }
     },
     "1": {
-        "place": "Москва",
-        "compensation": "",
-        "name": "Senior Golang developer",
-        "url": "https://chita.hh.ru/vacancy/46350993?query=data%20engineer",
-        "org": "ZiMAD",
-        "org_link": "https://chita.hh.ru/employer/780623",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46350993&hhtmFrom=vacancy_search_result",
-        "time": "19.07"
+        "count": {
+            "place": "Москва",
+            "compensation": "",
+            "name": "DevOps инженер",
+            "url": "https://chita.hh.ru/vacancy/45669014?query=data%20engineer",
+            "org": "Билайн",
+            "org_link": "https://chita.hh.ru/employer/4934",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45669014&hhtmFrom=vacancy_search_result",
+            "time": "20.07"
+        }
     },
     "2": {
-        "place": "Санкт-Петербург",
-        "compensation": "",
-        "name": "DevOps engineer (OTC)",
-        "url": "https://chita.hh.ru/vacancy/44410353?query=data%20engineer",
-        "org": "Deutsche Telekom IT Solutions (ex.T-Systems)",
-        "org_link": "https://chita.hh.ru/employer/25",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=44410353&hhtmFrom=vacancy_search_result",
-        "time": "19.07"
+        "count": {
+            "place": "Санкт-Петербург",
+            "compensation": "",
+            "name": "DevOps",
+            "url": "https://chita.hh.ru/vacancy/45755121?query=data%20engineer",
+            "org": "Гулидова Галина Сергеевна",
+            "org_link": "https://chita.hh.ru/employer/5387234",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45755121&hhtmFrom=vacancy_search_result",
+            "time": "19.07"
+        }
     },
     "3": {
-        "place": "Москва",
-        "compensation": "300 000 – 380 000 руб.",
-        "name": "Senior Java Developer",
-        "url": "https://chita.hh.ru/vacancy/46192698?query=data%20engineer",
-        "org": "Urban Technology GmbH",
-        "org_link": "https://chita.hh.ru/employer/4790751",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46192698&hhtmFrom=vacancy_search_result",
-        "time": "19.07"
+        "count": {
+            "place": "Москва",
+            "compensation": "",
+            "name": "DevOps Engineer",
+            "url": "https://chita.hh.ru/vacancy/46060854?query=data%20engineer",
+            "org": "Architech",
+            "org_link": "https://chita.hh.ru/employer/2209062",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46060854&hhtmFrom=vacancy_search_result",
+            "time": "19.07"
+        }
     },
     "4": {
-        "place": "Москва",
-        "compensation": "2 000 – 3 500 USD",
-        "name": "React Front End Developer",
-        "url": "https://chita.hh.ru/vacancy/46279289?query=data%20engineer",
-        "org": "Metapix, Inc",
-        "org_link": "https://chita.hh.ru/employer/4883629",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46279289&hhtmFrom=vacancy_search_result",
-        "time": "18.07"
+        "count": {
+            "place": "Санкт-Петербург",
+            "compensation": "",
+            "name": "DevOps engineer (OTC)",
+            "url": "https://chita.hh.ru/vacancy/44410353?query=data%20engineer",
+            "org": "Deutsche Telekom IT Solutions (ex.T-Systems)",
+            "org_link": "https://chita.hh.ru/employer/25",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=44410353&hhtmFrom=vacancy_search_result",
+            "time": "19.07"
+        }
     },
     "5": {
-        "place": "Ярославль",
-        "compensation": "",
-        "name": "Data engineer/Data administrator [Remote]",
-        "url": "https://chita.hh.ru/vacancy/46269455?query=data%20engineer",
-        "org": "Cloud Linux",
-        "org_link": "https://chita.hh.ru/employer/1245452",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46269455&hhtmFrom=vacancy_search_result",
-        "time": "18.07"
+        "count": {
+            "place": "Калининград",
+            "compensation": "",
+            "name": "Senior Data engineer",
+            "url": "https://chita.hh.ru/vacancy/45667929?query=data%20engineer",
+            "org": "1C-Битрикс",
+            "org_link": "https://chita.hh.ru/employer/129044",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45667929&hhtmFrom=vacancy_search_result",
+            "time": "19.07"
+        }
     },
     "6": {
-        "place": "Санкт-Петербург",
-        "compensation": "от 4 000 USD",
-        "name": "Product Manager - Mobile",
-        "url": "https://chita.hh.ru/vacancy/46103171?query=data%20engineer",
-        "org": "Новакид РУС",
-        "org_link": "https://chita.hh.ru/employer/851716",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46103171&hhtmFrom=vacancy_search_result",
-        "time": "18.07"
+        "count": {
+            "place": "Санкт-Петербург",
+            "compensation": "",
+            "name": "Senior Fullstack Engineer (Python, Django, React)",
+            "url": "https://chita.hh.ru/vacancy/45728058?query=data%20engineer",
+            "org": "Ergeon",
+            "org_link": "https://chita.hh.ru/employer/3833309",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45728058&hhtmFrom=vacancy_search_result",
+            "time": "18.07"
+        }
     },
     "7": {
-        "place": "Санкт-Петербург",
-        "compensation": "",
-        "name": "Stream Tech Officer (удаленно)",
-        "url": "https://chita.hh.ru/vacancy/46242227?query=data%20engineer",
-        "org": "Parimatch Tech",
-        "org_link": "https://chita.hh.ru/employer/1689471",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242227&hhtmFrom=vacancy_search_result",
-        "time": "17.07"
+        "count": {
+            "place": "Санкт-Петербург",
+            "compensation": "",
+            "name": "Data engineer/Data administrator [Remote]",
+            "url": "https://chita.hh.ru/vacancy/46269410?query=data%20engineer",
+            "org": "Cloud Linux",
+            "org_link": "https://chita.hh.ru/employer/1245452",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46269410&hhtmFrom=vacancy_search_result",
+            "time": "18.07"
+        }
     },
     "8": {
-        "place": "Ростов-на-Дону",
-        "compensation": "",
-        "name": "SRE/DevOps engineer for Infrastructure Team [Remote]",
-        "url": "https://chita.hh.ru/vacancy/45957366?query=data%20engineer",
-        "org": "Cloud Linux",
-        "org_link": "https://chita.hh.ru/employer/1245452",
-        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45957366&hhtmFrom=vacancy_search_result",
-        "time": "17.07"
+        "count": {
+            "place": "Москва",
+            "compensation": "до 3 000 EUR",
+            "name": "Senior Python Developer",
+            "url": "https://chita.hh.ru/vacancy/45835639?query=data%20engineer",
+            "org": "ООО Globus.ai",
+            "org_link": "https://chita.hh.ru/employer/3194188",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45835639&hhtmFrom=vacancy_search_result",
+            "time": "17.07"
+        }
+    },
+    "9": {
+        "count": {
+            "place": "Москва",
+            "compensation": "от 450 000 руб.",
+            "name": "Руководитель разработки / CTO (удаленно из любого города)",
+            "url": "https://chita.hh.ru/vacancy/46098393?query=data%20engineer",
+            "org": "Пикабу",
+            "org_link": "https://chita.hh.ru/employer/1583540",
+            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46098393&hhtmFrom=vacancy_search_result",
+            "time": "17.07"
+        }
     }
 }
