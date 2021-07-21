@@ -152,11 +152,11 @@ def get_page(url, params=''):
 def get_data(src, count_vacancy):
     page_bs = bs(src, 'lxml')
     tags = page_bs.find_all('div', class_='vacancy-serp-item')
-    vacancy_dict = {}
     vacancies_dict = {}
     for tag in tags:
+        vacancy_dict = {}
         vacancy_name = tag.find("a", class_="bloko-link")  # vacancy name
-        vacancy_compensation = tag.find("div", class_="vacancy-serp-item__sidebar").text
+        vacancy_compensation = tag.find("div", class_="vacancy-serp-item__sidebar").text.replace(u"\u00A0", "")
         if vacancy_compensation is None:
             vacancy_compensation = '-'
 
@@ -233,26 +233,30 @@ def get_data_all_file(num_page):
     # get data from file
     all_vacancy_dict = {}
     count_vacancy = 1
-    for num in range(num_page):
-        one_page_vacancies = get_data(read_file(num), count_vacancy)
-        count_vacancy = one_page_vacancies[1]
-        # vac = []
-        for key in one_page_vacancies[0]:
-            all_vacancy_dict[key] = one_page_vacancies[0][key]
-            # for vac_vol in all_vacancy_dict[key].values():
-            #     vac.append(vac_vol)
-            # headers.append(vac)
-    # save into the jason
-    with open("all_vacancy_dict.json", "w", encoding="utf-8") as file:
-        json.dump(all_vacancy_dict, file, indent=4, ensure_ascii=False)
-
-    # save into the csv
+    # save headers into the csv
     headers = ['place', 'compensation', 'name', 'url', 'org', 'org_link', 'response', 'time']
     with open("all_vacancy_dict.csv", "w", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=headers)
         writer.writeheader()
-        #
-        writer.writerows(all_vacancy_dict)
+
+    for num in range(num_page):
+        one_page_vacancies = get_data(read_file(num), count_vacancy)
+        count_vacancy = one_page_vacancies[1]
+        vac = []
+        for key in one_page_vacancies[0]:
+            all_vacancy_dict[key] = one_page_vacancies[0][key]
+            for vac_vol in all_vacancy_dict[key].values():
+                print(vac_vol)
+                vac.append(vac_vol)
+            # append data into csv-file
+        with open("all_vacancy_dict.csv", "a", encoding="utf-8") as file:
+            writer = csv.writer(file)
+            writer.writerow(vac)
+    # save into the jason
+    with open("all_vacancy_dict.json", "w", encoding="utf-8") as file:
+        json.dump(all_vacancy_dict, file, indent=4, ensure_ascii=False)
+
+
 
     return
 
@@ -271,6 +275,7 @@ def get_data_all_file(num_page):
 
 
 def parser():
+
     html = get_page(URL, params={'page': 0})
     if html[0] == 200:
         num_pages = get_pages_num(html[1])
@@ -285,5 +290,7 @@ def parser():
         print("Нет доступа!!!")
 
 
-parser()
-# send_sub()
+if __name__ == '__main__':
+    parser()
+
+
