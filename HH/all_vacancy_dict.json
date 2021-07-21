@@ -1,122 +1,2022 @@
 {
-    "0": {
-        "count": {
-            "place": "Москва",
-            "compensation": "",
-            "name": "QA Automation Engineer",
-            "url": "https://chita.hh.ru/vacancy/45975518?query=data%20engineer",
-            "org": "IT X100",
-            "org_link": "https://chita.hh.ru/employer/4989161",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45975518&hhtmFrom=vacancy_search_result",
-            "time": "20.07"
-        }
-    },
     "1": {
-        "count": {
-            "place": "Москва",
-            "compensation": "",
-            "name": "DevOps инженер",
-            "url": "https://chita.hh.ru/vacancy/45669014?query=data%20engineer",
-            "org": "Билайн",
-            "org_link": "https://chita.hh.ru/employer/4934",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45669014&hhtmFrom=vacancy_search_result",
-            "time": "20.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "2": {
-        "count": {
-            "place": "Санкт-Петербург",
-            "compensation": "",
-            "name": "DevOps",
-            "url": "https://chita.hh.ru/vacancy/45755121?query=data%20engineer",
-            "org": "Гулидова Галина Сергеевна",
-            "org_link": "https://chita.hh.ru/employer/5387234",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45755121&hhtmFrom=vacancy_search_result",
-            "time": "19.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "3": {
-        "count": {
-            "place": "Москва",
-            "compensation": "",
-            "name": "DevOps Engineer",
-            "url": "https://chita.hh.ru/vacancy/46060854?query=data%20engineer",
-            "org": "Architech",
-            "org_link": "https://chita.hh.ru/employer/2209062",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46060854&hhtmFrom=vacancy_search_result",
-            "time": "19.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "4": {
-        "count": {
-            "place": "Санкт-Петербург",
-            "compensation": "",
-            "name": "DevOps engineer (OTC)",
-            "url": "https://chita.hh.ru/vacancy/44410353?query=data%20engineer",
-            "org": "Deutsche Telekom IT Solutions (ex.T-Systems)",
-            "org_link": "https://chita.hh.ru/employer/25",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=44410353&hhtmFrom=vacancy_search_result",
-            "time": "19.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "5": {
-        "count": {
-            "place": "Калининград",
-            "compensation": "",
-            "name": "Senior Data engineer",
-            "url": "https://chita.hh.ru/vacancy/45667929?query=data%20engineer",
-            "org": "1C-Битрикс",
-            "org_link": "https://chita.hh.ru/employer/129044",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45667929&hhtmFrom=vacancy_search_result",
-            "time": "19.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "6": {
-        "count": {
-            "place": "Санкт-Петербург",
-            "compensation": "",
-            "name": "Senior Fullstack Engineer (Python, Django, React)",
-            "url": "https://chita.hh.ru/vacancy/45728058?query=data%20engineer",
-            "org": "Ergeon",
-            "org_link": "https://chita.hh.ru/employer/3833309",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45728058&hhtmFrom=vacancy_search_result",
-            "time": "18.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "7": {
-        "count": {
-            "place": "Санкт-Петербург",
-            "compensation": "",
-            "name": "Data engineer/Data administrator [Remote]",
-            "url": "https://chita.hh.ru/vacancy/46269410?query=data%20engineer",
-            "org": "Cloud Linux",
-            "org_link": "https://chita.hh.ru/employer/1245452",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46269410&hhtmFrom=vacancy_search_result",
-            "time": "18.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "8": {
-        "count": {
-            "place": "Москва",
-            "compensation": "до 3 000 EUR",
-            "name": "Senior Python Developer",
-            "url": "https://chita.hh.ru/vacancy/45835639?query=data%20engineer",
-            "org": "ООО Globus.ai",
-            "org_link": "https://chita.hh.ru/employer/3194188",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45835639&hhtmFrom=vacancy_search_result",
-            "time": "17.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
     },
     "9": {
-        "count": {
-            "place": "Москва",
-            "compensation": "от 450 000 руб.",
-            "name": "Руководитель разработки / CTO (удаленно из любого города)",
-            "url": "https://chita.hh.ru/vacancy/46098393?query=data%20engineer",
-            "org": "Пикабу",
-            "org_link": "https://chita.hh.ru/employer/1583540",
-            "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46098393&hhtmFrom=vacancy_search_result",
-            "time": "17.07"
-        }
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "10": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "11": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "12": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "13": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "14": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "15": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "16": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "17": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "18": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "19": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "20": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Junior Data engineer",
+        "url": "https://chita.hh.ru/vacancy/46390309?query=data%20engineer",
+        "org": "Негосударственный Пенсионный Фонд Сбербанка",
+        "org_link": "https://chita.hh.ru/employer/195398",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46390309&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "21": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "22": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "23": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "24": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "25": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "26": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "27": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "28": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "29": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "30": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "31": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "32": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "33": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "34": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "35": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "36": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "37": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "38": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "39": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "40": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Security Engineer (Инженер по безопасности данных, удаленно)",
+        "url": "https://chita.hh.ru/vacancy/46242168?query=data%20engineer",
+        "org": "Parimatch Tech",
+        "org_link": "https://chita.hh.ru/employer/1689471",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46242168&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "41": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "42": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "43": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "44": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "45": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "46": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "47": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "48": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "49": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "50": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "51": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "52": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "53": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "54": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "55": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "56": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "57": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "58": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "59": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "60": {
+        "place": "Москва",
+        "compensation": "от 3 000 USD",
+        "name": "Manual Test Lead",
+        "url": "https://chita.hh.ru/vacancy/46372429?query=data%20engineer",
+        "org": "Flow Health, Inc",
+        "org_link": "https://chita.hh.ru/employer/2958547",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46372429&hhtmFrom=vacancy_search_result",
+        "time": "20.07"
+    },
+    "61": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "62": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "63": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "64": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "65": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "66": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "67": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "68": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "69": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "70": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "71": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "72": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "73": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "74": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "75": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "76": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "77": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "78": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "79": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "80": {
+        "place": "Санкт-Петербург",
+        "compensation": "от 350 000 руб.",
+        "name": "Cloud Data Scientist (AWS, remote)",
+        "url": "https://chita.hh.ru/vacancy/46358397?query=data%20engineer",
+        "org": "ООО ClearScale",
+        "org_link": "https://chita.hh.ru/employer/1574063",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46358397&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "81": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "82": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "83": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "84": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "85": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "86": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "87": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "88": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "89": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "90": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "91": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "92": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "93": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "94": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "95": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "96": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "97": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "98": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "99": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "100": {
+        "place": "Санкт-Петербург",
+        "compensation": "",
+        "name": "Data Analyst в Sales",
+        "url": "https://chita.hh.ru/vacancy/42491175?query=data%20engineer",
+        "org": "Skyeng",
+        "org_link": "https://chita.hh.ru/employer/1122462",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=42491175&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "101": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "102": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "103": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "104": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "105": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "106": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "107": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "108": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "109": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "110": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "111": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "112": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "113": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "114": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "115": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "116": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "117": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "118": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "119": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "120": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "Java developer",
+        "url": "https://chita.hh.ru/vacancy/46346237?query=data%20engineer",
+        "org": "Билайн",
+        "org_link": "https://chita.hh.ru/employer/4934",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46346237&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "121": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "122": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "123": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "124": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "125": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "126": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "127": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "128": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "129": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "130": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "131": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "132": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "133": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "134": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "135": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "136": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "137": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "138": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "139": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "140": {
+        "place": "Новосибирск",
+        "compensation": "",
+        "name": "SRE/DevOps for Infrastructure Team [Remote]",
+        "url": "https://chita.hh.ru/vacancy/45737995?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45737995&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "141": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "142": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "143": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "144": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "145": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "146": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "147": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "148": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "149": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "150": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "151": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "152": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "153": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "154": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "155": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "156": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "157": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "158": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "159": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "160": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Inside Account Executive, Germany - Stay home, join Veeam! (remote work)",
+        "url": "https://chita.hh.ru/vacancy/41700384?query=data%20engineer",
+        "org": "Veeam Software",
+        "org_link": "https://chita.hh.ru/employer/15092",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=41700384&hhtmFrom=vacancy_search_result",
+        "time": "19.07"
+    },
+    "161": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "162": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "163": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "164": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "165": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "166": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "167": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "168": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "169": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "170": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "171": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "172": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "173": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "174": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "175": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "176": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "177": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "178": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "179": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "180": {
+        "place": "Москва, Новокузнецкая и еще 2",
+        "compensation": "",
+        "name": "Java developer - Axiom Core",
+        "url": "https://chita.hh.ru/vacancy/45721501?query=data%20engineer",
+        "org": "Deutsche Bank Technology Center",
+        "org_link": "https://chita.hh.ru/employer/1641540",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45721501&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "181": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "182": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "183": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "184": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "185": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "186": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "187": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "188": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "189": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "190": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "191": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "192": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "193": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "194": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "195": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "196": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "197": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "198": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "199": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "200": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Middle developer C/Python on Linux - KernelCare [Remote]",
+        "url": "https://chita.hh.ru/vacancy/46252833?query=data%20engineer",
+        "org": "Cloud Linux",
+        "org_link": "https://chita.hh.ru/employer/1245452",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=46252833&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "201": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Data Analyst",
+        "url": "https://chita.hh.ru/vacancy/45584228?query=data%20engineer",
+        "org": "Launch Control",
+        "org_link": "https://chita.hh.ru/employer/5502536",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45584228&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
+    },
+    "202": {
+        "place": "Москва",
+        "compensation": "",
+        "name": "Data Analyst",
+        "url": "https://chita.hh.ru/vacancy/45584228?query=data%20engineer",
+        "org": "Launch Control",
+        "org_link": "https://chita.hh.ru/employer/5502536",
+        "response": "https://chita.hh.ru/applicant/vacancy_response?vacancyId=45584228&hhtmFrom=vacancy_search_result",
+        "time": "18.07"
     }
 }

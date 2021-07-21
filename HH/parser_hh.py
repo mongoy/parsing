@@ -13,7 +13,7 @@ import datetime
 import json
 import os
 
-from settings import *
+# from .settings import *
 # скрытый ввод пароля
 from getpass import getpass
 # Импортируем библиотеку по работе с SMTP
@@ -43,88 +43,88 @@ HEADERS = {
 }
 
 
-def processing_attachement(msg, files):
-    """
-    Функция по обработке списка, добавляемых к сообщению файлов
-    :param msg: почтовое сообщение
-    :param files: путь к файлу(ам) вложения
-    :return:
-    """
-    for f in files:
-        if os.path.isfile(f):  # Если файл существует
-            attach_file(msg, f)  # Добавляем файл к сообщению
-        elif os.path.exists(f):  # Если путь не файл и существует, значит - папка
-            dir_files = os.listdir(f)  # Получаем список файлов в папке
-            for file in dir_files:  # Перебираем все файлы и...
-                attach_file(msg, f + "/" + file)  # ...добавляем каждый файл к сообщению
-
-    return
-
-
-def attach_file(msg, filepath):
-    """
-    Функция по добавлению конкретного файла к сообщению
-    :param msg: почтовое сообщение
-    :param filepath: путь к файлу(ам) вложения
-    :return:
-    """
-    filename = os.path.basename(filepath)  # Получаем только имя файла
-    ctype, encoding = mimetypes.guess_type(filepath)  # Определяем тип файла на основе его расширения
-    if ctype is None or encoding is not None:  # Если тип файла не определяется
-        ctype = 'application/octet-stream'  # Будем использовать общий тип
-    maintype, subtype = ctype.split('/', 1)  # Получаем тип и подтип
-    if maintype == 'text':  # Если текстовый файл
-        with open(filepath) as fp:  # Открываем файл для чтения
-            file = MIMEText(fp.read(), _subtype=subtype)  # Используем тип MIMEText
-            fp.close()  # После использования файл обязательно нужно закрыть
-    elif maintype == 'image':  # Если изображение
-        with open(filepath, 'rb') as fp:
-            file = MIMEImage(fp.read(), _subtype=subtype)
-            fp.close()
-    elif maintype == 'audio':  # Если аудио
-        with open(filepath, 'rb') as fp:
-            file = MIMEAudio(fp.read(), _subtype=subtype)
-            fp.close()
-    else:  # Неизвестный тип файла
-        with open(filepath, 'rb') as fp:
-            file = MIMEBase(maintype, subtype)  # Используем общий MIME-тип
-            file.set_payload(fp.read())  # Добавляем содержимое общего типа (полезную нагрузку)
-            fp.close()
-            encoders.encode_base64(file)  # Содержимое должно кодироваться как Base64
-    file.add_header('Content-Disposition', 'attachment', filename=filename)  # Добавляем заголовки
-    msg.attach(file)  # Присоединяем файл к сообщению
-
-
-def send_email(msg_subj, msg_text, files):
-    """
-    Отправка на e-mail
-    :param msg_subj: тема сообщения
-    :param msg_text: текст сообщения
-    :param files: путь к файлу(ам) вложения
-    :return:
-    """
-    # addr_from = input('Введите e-mail отправителя:')
-    password = getpass(f'Введите пароль ({addr_from}):')  # Пароль
-    # addr_to = input('Введите e-mail получателя:')
-
-    msg = MIMEMultipart()  # Создаем сообщение
-    msg['From'] = addr_from  # Адресат
-    msg['To'] = addr_to  # Получатель
-    msg['Subject'] = msg_subj  # Тема сообщения
-
-    body = msg_text
-    msg.attach(MIMEText(body, 'plain'))  # Добавляем в сообщение текст
-    # присоединение файла
-    processing_attachement(msg, files)
-
-    server = smtplib.SMTP('smtp.mail.ru', 25)  # Создаем объект SMTP для MAIL.RU
-    # server.set_debuglevel(True)  # Включаем режим отладки - если отчет не нужен, строку можно закомментировать
-    server.starttls()  # Начинаем шифрованный обмен по TLS
-    server.login(addr_from, password)  # Получаем доступ
-    server.send_message(msg)  # Отправляем сообщение
-    server.quit()  # Выходим
-
-    return
+# def processing_attachement(msg, files):
+#     """
+#     Функция по обработке списка, добавляемых к сообщению файлов
+#     :param msg: почтовое сообщение
+#     :param files: путь к файлу(ам) вложения
+#     :return:
+#     """
+#     for f in files:
+#         if os.path.isfile(f):  # Если файл существует
+#             attach_file(msg, f)  # Добавляем файл к сообщению
+#         elif os.path.exists(f):  # Если путь не файл и существует, значит - папка
+#             dir_files = os.listdir(f)  # Получаем список файлов в папке
+#             for file in dir_files:  # Перебираем все файлы и...
+#                 attach_file(msg, f + "/" + file)  # ...добавляем каждый файл к сообщению
+#
+#     return
+#
+#
+# def attach_file(msg, filepath):
+#     """
+#     Функция по добавлению конкретного файла к сообщению
+#     :param msg: почтовое сообщение
+#     :param filepath: путь к файлу(ам) вложения
+#     :return:
+#     """
+#     filename = os.path.basename(filepath)  # Получаем только имя файла
+#     ctype, encoding = mimetypes.guess_type(filepath)  # Определяем тип файла на основе его расширения
+#     if ctype is None or encoding is not None:  # Если тип файла не определяется
+#         ctype = 'application/octet-stream'  # Будем использовать общий тип
+#     maintype, subtype = ctype.split('/', 1)  # Получаем тип и подтип
+#     if maintype == 'text':  # Если текстовый файл
+#         with open(filepath) as fp:  # Открываем файл для чтения
+#             file = MIMEText(fp.read(), _subtype=subtype)  # Используем тип MIMEText
+#             fp.close()  # После использования файл обязательно нужно закрыть
+#     elif maintype == 'image':  # Если изображение
+#         with open(filepath, 'rb') as fp:
+#             file = MIMEImage(fp.read(), _subtype=subtype)
+#             fp.close()
+#     elif maintype == 'audio':  # Если аудио
+#         with open(filepath, 'rb') as fp:
+#             file = MIMEAudio(fp.read(), _subtype=subtype)
+#             fp.close()
+#     else:  # Неизвестный тип файла
+#         with open(filepath, 'rb') as fp:
+#             file = MIMEBase(maintype, subtype)  # Используем общий MIME-тип
+#             file.set_payload(fp.read())  # Добавляем содержимое общего типа (полезную нагрузку)
+#             fp.close()
+#             encoders.encode_base64(file)  # Содержимое должно кодироваться как Base64
+#     file.add_header('Content-Disposition', 'attachment', filename=filename)  # Добавляем заголовки
+#     msg.attach(file)  # Присоединяем файл к сообщению
+#
+#
+# def send_email(msg_subj, msg_text, files):
+#     """
+#     Отправка на e-mail
+#     :param msg_subj: тема сообщения
+#     :param msg_text: текст сообщения
+#     :param files: путь к файлу(ам) вложения
+#     :return:
+#     """
+#     # addr_from = input('Введите e-mail отправителя:')
+#     password = getpass(f'Введите пароль ({addr_from}):')  # Пароль
+#     # addr_to = input('Введите e-mail получателя:')
+#
+#     msg = MIMEMultipart()  # Создаем сообщение
+#     msg['From'] = addr_from  # Адресат
+#     msg['To'] = addr_to  # Получатель
+#     msg['Subject'] = msg_subj  # Тема сообщения
+#
+#     body = msg_text
+#     msg.attach(MIMEText(body, 'plain'))  # Добавляем в сообщение текст
+#     # присоединение файла
+#     processing_attachement(msg, files)
+#
+#     server = smtplib.SMTP('smtp.mail.ru', 25)  # Создаем объект SMTP для MAIL.RU
+#     # server.set_debuglevel(True)  # Включаем режим отладки - если отчет не нужен, строку можно закомментировать
+#     server.starttls()  # Начинаем шифрованный обмен по TLS
+#     server.login(addr_from, password)  # Получаем доступ
+#     server.send_message(msg)  # Отправляем сообщение
+#     server.quit()  # Выходим
+#
+#     return
 
 
 def save_to_file(src, num_row):
@@ -186,7 +186,7 @@ def get_data(src, count_vacancy):
         vacancy_dict['response'] = vacancy_response
         vacancy_dict['time'] = vacancy_time
 
-        vacancies_dict['count'] = vacancy_dict
+        vacancies_dict[count_vacancy] = vacancy_dict
 
         # print vacancies
         print(str(count_vacancy) + ' - ', vacancy_place.text.strip() + ' - ',
@@ -235,23 +235,26 @@ def get_data_all_file(num_page):
     for num in range(num_page):
         one_page_vacancies = get_data(read_file(num), count_vacancy)
         count_vacancy = one_page_vacancies[1]
-        all_vacancy_dict[num] = one_page_vacancies[0]
+        # all_vacancy_dict[num] = one_page_vacancies[0]
+        for key in one_page_vacancies[0]:
+            all_vacancy_dict[key] = one_page_vacancies[0][key]
+
     with open("all_vacancy_dict.json", "w", encoding="utf-8") as file:
         json.dump(all_vacancy_dict, file, indent=4, ensure_ascii=False)
     return
 
 
-def send_sub():
-    """
-    Отправка почтового сообщения с почтового сервера MAIL.RU
-    :return:
-    """
-    files = [r"HH\all_vacancy_dict.json"]
-    now = datetime.datetime.now()
-    msg_subj = "Вакансии с HH.ru"
-    msg_text = "HH. Список вакансий на " + str(now.strftime("%d-%m-%Y %H:%M"))
-    send_email(msg_subj, msg_text, files)
-    return
+# def send_sub():
+#     """
+#     Отправка почтового сообщения с почтового сервера MAIL.RU
+#     :return:
+#     """
+#     files = [r"HH\all_vacancy_dict.json"]
+#     now = datetime.datetime.now()
+#     msg_subj = "Вакансии с HH.ru"
+#     msg_text = "HH. Список вакансий на " + str(now.strftime("%d-%m-%Y %H:%M"))
+#     send_email(msg_subj, msg_text, files)
+#     return
 
 
 def parser():
@@ -260,7 +263,7 @@ def parser():
         num_pages = get_pages_num(html[1])
         print(f'Всего {num_pages} страниц')
         # get data from URL one or all pages
-        # get_data_all_url(URL, num_pages)
+        get_data_all_url(URL, num_pages)
         # parsing saved html file
         html = read_file(0)
         get_data_all_file(num_pages)
