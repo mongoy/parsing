@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup as bs
 import time
 import datetime
 import json
+import csv
 import os
 
 # from .settings import *
@@ -235,12 +236,24 @@ def get_data_all_file(num_page):
     for num in range(num_page):
         one_page_vacancies = get_data(read_file(num), count_vacancy)
         count_vacancy = one_page_vacancies[1]
-        # all_vacancy_dict[num] = one_page_vacancies[0]
+        # vac = []
         for key in one_page_vacancies[0]:
             all_vacancy_dict[key] = one_page_vacancies[0][key]
-
+            # for vac_vol in all_vacancy_dict[key].values():
+            #     vac.append(vac_vol)
+            # headers.append(vac)
+    # save into the jason
     with open("all_vacancy_dict.json", "w", encoding="utf-8") as file:
         json.dump(all_vacancy_dict, file, indent=4, ensure_ascii=False)
+
+    # save into the csv
+    headers = ['place', 'compensation', 'name', 'url', 'org', 'org_link', 'response', 'time']
+    with open("all_vacancy_dict.csv", "w", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=headers)
+        writer.writeheader()
+        #
+        writer.writerows(all_vacancy_dict)
+
     return
 
 
@@ -263,7 +276,7 @@ def parser():
         num_pages = get_pages_num(html[1])
         print(f'Всего {num_pages} страниц')
         # get data from URL one or all pages
-        get_data_all_url(URL, num_pages)
+        # get_data_all_url(URL, num_pages)
         # parsing saved html file
         html = read_file(0)
         get_data_all_file(num_pages)
