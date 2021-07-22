@@ -5,6 +5,7 @@
 __pycache__
 db.sqlite3
 HH/settings.py
+EDUTAINME/
 
 # Backup files # 
 *.bak 
