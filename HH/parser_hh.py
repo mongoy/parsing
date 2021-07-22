@@ -130,13 +130,13 @@ HEADERS = {
 
 def save_to_file(src, num_row):
     # save page to file
-    with open(f"html\index{num_row}.html", "w", encoding='utf-8') as file:
+    with open(rf"html\index{num_row}.html", "w", encoding='utf-8') as file:
         file.write(src)
 
 
 def read_file(num_row):
     # read page from file
-    with open(f"html\index{num_row}.html", "r", encoding='utf-8') as file:
+    with open(rf"html\index{num_row}.html", "r", encoding='utf-8') as file:
         src = file.read()
     return src
 
@@ -176,7 +176,11 @@ def get_data(src, count_vacancy):
                                            ).find('a')['href'][1:].strip()
 
         vacancy_time = tag.find("span", class_="vacancy-serp-item__publication-date "
-                                               "vacancy-serp-item__publication-date_short").text.strip()
+                                               "vacancy-serp-item__publication-date_short")
+        if vacancy_time is None:
+            vacancy_time = '-'
+        else:
+            vacancy_time = vacancy_time.text.strip()
 
         vacancy_dict['place'] = vacancy_place.text.strip()
         vacancy_dict['compensation'] = vacancy_compensation
@@ -248,15 +252,13 @@ def get_data_all_file(num_page):
             for vac_vol in all_vacancy_dict[key].values():
                 print(vac_vol)
                 vac.append(vac_vol)
-            # append data into csv-file
+        # append data into csv-file
         with open("all_vacancy_dict.csv", "a", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(vac)
-    # save into the jason
+    # save data into the jason-file
     with open("all_vacancy_dict.json", "w", encoding="utf-8") as file:
         json.dump(all_vacancy_dict, file, indent=4, ensure_ascii=False)
-
-
 
     return
 
@@ -275,19 +277,34 @@ def get_data_all_file(num_page):
 
 
 def parser():
+    # operating mode
+    operating_mode = input('Парсинг файлов html (1) или сохранение страниц сайта (2):')
 
-    html = get_page(URL, params={'page': 0})
-    if html[0] == 200:
-        num_pages = get_pages_num(html[1])
-        print(f'Всего {num_pages} страниц')
-        # get data from URL one or all pages
-        # get_data_all_url(URL, num_pages)
-        # parsing saved html file
-        html = read_file(0)
-        get_data_all_file(num_pages)
-        # send_sub()
+    if operating_mode == "2":
+        print(operating_mode)
+        # html = get_page(URL, params={'page': 0})
+        # if html[0] == 200:
+        #     num_pages = get_pages_num(html[1])
+        #     print(f'Всего {num_pages} страниц')
+        #     # get data from URL one or all pages
+        #     get_data_all_url(URL, num_pages)
+        #     # parsing saved html file
+        #     # html = read_file(0)
+        #     get_data_all_file(num_pages)
+        # else:
+        #     print("Нет доступа!!!")
+
+    elif operating_mode == "1":
+        print(operating_mode)
+        # if os.path.exists(r"HH\html\index0.html"):
+        with open(r"html\index0.html", "r", encoding="utf-8") as fp:
+            num_pages = get_pages_num(fp)
+            print(f'Всего {num_pages} страниц')
+            get_data_all_file(num_pages)
     else:
-        print("Нет доступа!!!")
+        # error
+        print("Введите '1' или '2'\n")
+        return None
 
 
 if __name__ == '__main__':
