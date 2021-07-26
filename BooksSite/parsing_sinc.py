@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup as bs
 import datetime
 import csv
 
-
 HOST = 'https://www.labirint.ru'
 
 URL = 'https://www.labirint.ru/genres/2308/?available=1&paperbooks=1&display=table'
@@ -52,6 +51,7 @@ def get_pages_num(src):
 
 
 def get_data(src, book_count):
+    books_list = []
     page_bs = bs(src, 'lxml')
     books_items = page_bs.find("tbody", class_="products-table__body").find_all("tr")
     for item in books_items:
@@ -59,25 +59,63 @@ def get_data(src, book_count):
         try:
             book_title = book_data[0].find("a").text.strip()
 
-        except Exception as ex:
+        except:
             book_title = "Нет названия книги"
 
         try:
             book_author = book_data[1].find("a").text.strip()
-        except Exception as ex:
+        except:
             book_author = "Нет автора"
 
         try:
-            book_publishing = book_data[2].find("a").text.strip()
-        except Exception as ex:
+            book_publishing = book_data[2].find_all("a")[0].text.strip()
+            book_publishing += " : " + book_data[2].find_all("a")[1].text.strip()
+        except:
             book_publishing = "Нет издательства"
 
+        try:
+            book_new_price = int(book_data[3].find("span", class_="price-val")
+                                 .find("span").text.strip().replace(" ", ""))
+        except:
+            book_new_price = "Нет новой цены"
 
-        print(book_title)
-        print(book_author)
-        print(book_publishing)
-        print("*" * 20)
+        try:
+            book_old_price = int(book_data[3].find("span", class_="price-gray").text.strip().replace(" ", ""))
+        except:
+            book_old_price = "Нет старой цены"
 
+        try:
+            # book_discount = book_data[3].find("span", class_="price-val")["title"].strip()
+            book_discount = round(((book_old_price - book_new_price) / book_old_price) * 100)
+        except:
+            book_discount = "Нет скидки"
+
+        try:
+            book_status = book_data[5].find("div").text.strip()
+        except:
+            book_status = "Нет статуса"
+
+        # print(book_title)
+        # print(book_author)
+        # print(book_publishing)
+        # print(book_new_price)
+        # print(book_old_price)
+        # print(book_discount)
+        # print(book_status)
+        # print("*" * 20)
+        books_list.append(
+            {
+                "book_title": book_title,
+                "book_author": book_author,
+                "book_publishing": book_publishing,
+                "book_new_price": book_new_price,
+                "book_old_price": book_old_price,
+                "book_discount": book_discount,
+                "book_status": book_status
+            }
+        )
+        print(books_list)
+        break
 
 def get_data_all_url(url, num_page):
     # get data from URL
