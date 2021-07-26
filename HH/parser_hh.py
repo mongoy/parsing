@@ -279,23 +279,21 @@ def get_data_all_file(num_page):
 def parser():
     # operating mode
     operating_mode = input('Парсинг файлов html (1) или сохранение страниц сайта (2):')
-
     if operating_mode == "2":
-        print(operating_mode)
-        # html = get_page(URL, params={'page': 0})
-        # if html[0] == 200:
-        #     num_pages = get_pages_num(html[1])
-        #     print(f'Всего {num_pages} страниц')
-        #     # get data from URL one or all pages
-        #     get_data_all_url(URL, num_pages)
-        #     # parsing saved html file
-        #     # html = read_file(0)
-        #     get_data_all_file(num_pages)
-        # else:
-        #     print("Нет доступа!!!")
+        # print(operating_mode)
+        html = get_page(URL, params={'page': 0})
+        if html[0] == 200:
+            num_pages = get_pages_num(html[1])
+            print(f'Всего {num_pages} страниц')
+            # get data from URL one or all pages
+            get_data_all_url(URL, num_pages)
+            # parsing saved html file
+            get_data_all_file(num_pages)
+        else:
+            print("Нет доступа!!!")
 
     elif operating_mode == "1":
-        print(operating_mode)
+        # print(operating_mode)
         # if os.path.exists(r"HH\html\index0.html"):
         with open(r"html\index0.html", "r", encoding="utf-8") as fp:
             num_pages = get_pages_num(fp)
