@@ -50,11 +50,12 @@ def get_pages_num(src):
         return 1
 
 
-def get_data(src, book_count):
-    books_list = []
+def get_data(src, book_count, file_name):
+    books_dict = {}
     page_bs = bs(src, 'lxml')
     books_items = page_bs.find("tbody", class_="products-table__body").find_all("tr")
     for item in books_items:
+
         book_data = item.find_all("td")
         try:
             book_title = book_data[0].find("a").text.strip()
@@ -95,27 +96,33 @@ def get_data(src, book_count):
         except:
             book_status = "Нет статуса"
 
-        # print(book_title)
-        # print(book_author)
-        # print(book_publishing)
-        # print(book_new_price)
-        # print(book_old_price)
-        # print(book_discount)
-        # print(book_status)
-        # print("*" * 20)
-        books_list.append(
-            {
-                "book_title": book_title,
-                "book_author": book_author,
-                "book_publishing": book_publishing,
-                "book_new_price": book_new_price,
-                "book_old_price": book_old_price,
-                "book_discount": book_discount,
-                "book_status": book_status
-            }
-        )
-        print(books_list)
-        break
+        book_dict = {
+            "book_title": book_title,
+            "book_author": book_author,
+            "book_publishing": book_publishing,
+            "book_new_price": book_new_price,
+            "book_old_price": book_old_price,
+            "book_discount": book_discount,
+            "book_status": book_status
+        }
+        books_dict[book_count] = book_dict
+        book_count += 1
+        with open(f"{file_name}.csv", "a", encoding="utf-8") as file:
+            writer = csv.writer(file, delimiter=";")
+            writer.writerow(
+                        (
+                            book_title,
+                            book_author,
+                            book_publishing,
+                            book_new_price,
+                            book_old_price,
+                            book_discount,
+                            book_status
+                         )
+            )
+    # print(books_list)
+    return books_dict, book_count
+
 
 def get_data_all_url(url, num_page):
     # get data from URL
@@ -130,16 +137,53 @@ def get_data_all_url(url, num_page):
 
 def get_data_all_file(num_page):
     # get data from file
-    all_books_dict = {}
+    cur_time = datetime.datetime.now().strftime("%m_%d_%Y_%H_%M")
+    file_name = f"labirint_{cur_time}"
+    # save data into csv-file
+    headers = [
+        'book_title',
+        'book_author',
+        'book_publishing',
+        'book_new_price',
+        'book_old_price',
+        'book_discount',
+        'book_status'
+    ]
+    with open(f"{file_name}.csv", "w", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=headers, delimiter=";")
+        writer.writeheader()
+        # writer = csv.writer(file, delimiter=";")
+        # writer.writerow(
+        #     ("Название",
+        #      "Автор",
+        #      "Издательство",
+        #      "Новая цена",
+        #      "Старая цена",
+        #      "Скидка",
+        #      "Статус")
+        # )
+    all_book_dict = {}
     book_count = 1
     for num in range(num_page):
-        # print(read_file(num))
-        one_page_books = get_data(read_file(num), book_count)
-        # book_count = one_page_books[1]
-        # print(num)
-        # for key in one_page_books[0]:
-        #     pass
-        break
+        one_page_books = get_data(read_file(num), book_count, file_name)
+        book_count = one_page_books[1]
+        book = []
+        for key in one_page_books[0]:
+            all_book_dict[key] = one_page_books[0][key]
+            for book_vol in all_book_dict[key].values():
+                book.append(book_vol)
+        # append data into csv-file
+        with open(f"{file_name}.csv", "a", encoding="utf-8") as file:
+            writer = csv.writer(file, delimiter=";")
+            writer.writerow(book)
+
+        print(f"Обработана {num + 1}/{num_page}")
+        # print(all_book_dict)
+        time.sleep(1)
+    # save data into json-file
+    with open(f"{file_name}.json", "a", encoding="utf-8") as file:
+        json.dump(all_book_dict, file, indent=4, ensure_ascii=False)
+
     return
 
 
