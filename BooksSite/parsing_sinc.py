@@ -127,7 +127,7 @@ def get_data(src, book_count, file_name):
 def get_data_all_url(url, num_page):
     # get data from URL
     for num in range(num_page):
-        html = get_page(URL, params={'page': f'{num}'})
+        html = get_page(url, params={'page': f'{num}'})
         save_to_file(html[1], num)
         print(f'Готово - {num + 1}. Ждём перед загрузкой следующей страницы...')
         time.sleep(3)
@@ -189,6 +189,7 @@ def get_data_all_file(num_page):
 
 def main():
     # operating mode
+    start_time = time.time()
     operating_mode = input('Парсинг файлов html (1) или сохранение страниц сайта (2):')
     if operating_mode == "2":
         html = get_page(URL, params={'page': 0})
@@ -212,6 +213,8 @@ def main():
         # error
         print("Введите '1' или '2'\n")
         return None
+    finish_time = time.time() - start_time
+    print(f"Время затраченное на выполнение скрипта:{finish_time}")
 
 
 if __name__ == '__main__':
